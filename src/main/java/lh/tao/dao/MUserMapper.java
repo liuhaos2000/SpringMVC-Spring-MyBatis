@@ -1,8 +1,8 @@
-package rml.dao;
+package lh.tao.dao;
 
 import java.util.List;
 
-import rml.model.MUser;
+import lh.tao.model.MUser;
 
 public interface MUserMapper {
     int deleteByPrimaryKey(String id);

@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import rml.model.MUser;
-import rml.service.MUserServiceI;
-
 import com.alibaba.fastjson.JSON;
+
+import lh.tao.model.MUser;
+import lh.tao.service.MUserServiceI;
 
 @RunWith(SpringJUnit4ClassRunner.class) // = extends SpringJUnit4ClassRunner
 @ContextConfiguration(locations = { "classpath:spring.xml", "classpath:spring-mybatis.xml" })

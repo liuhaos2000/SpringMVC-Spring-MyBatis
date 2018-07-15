@@ -1,4 +1,4 @@
-package rml.model;
+package lh.tao.model;
 
 public class MUser {
     private String id;

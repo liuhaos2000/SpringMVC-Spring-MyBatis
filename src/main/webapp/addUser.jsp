@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</head>
 
 	<body>
-		<form action="<%=path %>/muserController/addUser.do" method="POST">
+		<form action="<%=path %>/app/muserController/addUser" method="POST">
 			<table>
 				<tr>
 					<td>name:</td>

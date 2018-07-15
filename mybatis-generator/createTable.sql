@@ -1,6 +1,6 @@
 create table muser(
-id varchar2(36) primary key,
-name varchar2(36),
-age number(8),
-address varchar2(36)
+id varchar(36) primary key,
+name varchar(36),
+age numeric(8),
+address varchar(36)
 );

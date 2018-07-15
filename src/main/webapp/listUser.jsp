@@ -29,8 +29,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    			<td>${user.name }</td>
    			<td>${user.age }</td>
    			<td>${user.address }</td>
-   			<td><a href="<%=path %>/muserController/deleteUser.do?id=${user.id }">Delete</a></td>
-   			<td><a href="<%=path %>/muserController/updateUserUI.do?id=${user.id }">Update</a></td>
+   			<td><a href="<%=path %>/app/muserController/deleteUser?id=${user.id }">Delete</a></td>
+   			<td><a href="<%=path %>/app/muserController/updateUserUI?id=${user.id }">Update</a></td>
    		</tr>
    		</c:forEach>
    </table>
